@@ -41,21 +41,3 @@ p {
 #sketch-name {
     color: black;
 }
-
-canvas {
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 190px;
-    animation-name: shadow;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes shadow {
-    from {
-        box-shadow: 2px 2px 40px white;
-    }
-    to {
-        box-shadow: 2px 2px 40px blue;
-    }
-}
